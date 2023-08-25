@@ -1,6 +1,8 @@
 [profile.default]
-src = "src"
+src = "contracts"
 out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+libraries = ["contracts/libraries/NFTDescriptor.sol:NFTDescriptor:0x0d0cbcc74ba44689e76416c65faf3189970f9fbc"]

@@ -1,0 +1,31 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "src/Counter.sol": {
+      "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.13;\n\ncontract Counter {\n    uint256 public number;\n\n    function setNumber(uint256 newNumber) public {\n        number = newNumber;\n    }\n\n    function increment() public {\n        number++;\n    }\n}\n"
+    }
+  },
+  "settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "": [
+          "metadata"
+        ],
+        "*": [
+          "abi",
+          "evm.methodIdentifiers"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "libraries": {}
+  }
+}

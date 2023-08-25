@@ -1,0 +1,27 @@
+{
+  "name": "@fikaswap/v3-periphery",
+  "version": "2.0.0",
+  "description": "\"wahaha\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "silicon",
+  "license": "ISC",
+  "dependencies": {
+    "@fikaswap/v3-core": "^1.6.2",
+    "@openzeppelin/contracts": "^4.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https/github.com/fikaswap/v3-periphery.git"
+  },
+  "keywords": [
+    "fikaswap",
+    "periphery"
+  ]
+}
